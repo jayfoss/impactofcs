@@ -54,9 +54,44 @@
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<p>START YOUR PAGE CONTENT HERE</p>	
+								<h3>Introduction</h3>
+								<p>Blockchain was first invented by Satoshi Nakamoto in 2008. It was originally created as public ledger (or record) of transactions which underpinned the cryptocurrency now known as Bitcoin.</p>
+								<p>There is a significant amount of mystery surrounding Satoshi's identity. Some claim that Satoshi is not one person, but the pseudonym of a group of people who wanted to revolutionise modern payment systems. Others believe that Satoshi is an alias of the billionaire visionary CEO Elon Musk due to certain features in the original code being similar to some of Musk's own work.</p>
+								<p>Whatever the case, the original principal of Blockchain was that it would be a decentralised system. This meant that banks would not have power over currencies running on such a ledger, rather control would be in the hands of the people.</p>
 							</div>	
 						</div>				
+					</div>
+				</section>
+				<section id="section-content-2">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<h3>How it works</h3>
+								<p>A blockchain is made up of collections of data which are stored together in what are known as blocks. Each block will contain some data, a hash of the previous block and a nonce (though may also contain other things). A blockchain will normally be distributed over a Peer-to-Peer network.</p>
+								<p>In the case of a blockchain acting as a ledger for a cryptocurrency, each block's data will be made up of many transactions. Once a certain number of transactions has been added into the latest block, its <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">hash</a> is computed. This is then stored in the data of the next block. In doing so, the two blocks are now said to linked in a chain. Any change in the data of the first block will change its hash which will mean that it no longer matches the hash value stored in the subsequent block.</p>
+								<p>However, there is an issue with this system whereby someone could re-compute the hash of each block and insert it into the data of the next block. To prevent this, each block hash generated must adhere to a set of conditions (e.g. the hexadecimal representation of its hash must start with 5 0s). Since each block hash will be unique, depending on the data stored in the block, a nonce is used to force the hash to adhere to the conditions. This is simply a value which is incremented repeatedly until the latest block's hash meets the desired conditions. Once this happens, the hash can be stored in the next block. The process of finding a hash which matches the criteria is known as mining and usually takes significant time and computational power for real-world cryptocurrency blockchains.</p>
+								<p>Once a hash matching the criteria is found by a miner, all the other users on the P2P network will validate it. This can be done quickly and easily by just calculating the hash of the latest candidate block and checking if the hash the miner has provided matches this. This is a low-cost operation due to the one-way nature of hashing functions where finding solutions is a computationally complex problem, but verifying them is computationally simple. If the majority of the network agrees that the hashes match, the block is accepted and added onto the chain. If not, it is invalid and rejected. This is known as achieving concensus.</p>
+								<p>This chaining of blocks with hashes matching specific criteria makes blockchains immutable. Since blockchains work on a principle of democracy and consider the longest chain to be the valid one, any individual cannot insert blocks which have been tampered with. For a party to change a block, they would have to have more computation power than the entire network combined due to the requirement to recalculate the hashes for every block in the chain, one after another and keep doing this while the rest of the network continually adds more blocks. This is infeasible.</p>
+								<p>The first block in a blockchain is known as the Genesis block. Since there are no blocks before it, it has no previous block hash. Due to the aforementioned hashing, after around 100 blocks have been added to the chain, the Genesis block can be considered to be completely untamperable.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="section-content-3">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<h3>Current & Future Impact</h3>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<p>Blockchain technologies have already had a significant impact on society. Bitcoin is not the only use of blockchains, though it may be the most famous. In fact, bitcoin suffers from many limitations which make it less practical as a currency. One of these is that validating a new block takes a significant amount of time which could never keep up with the volume of traffic seen on credit card networks such as Visa. There are many other cryptocurrency blockchains which may be infinitely more useful for mass, near-instant digital transactions across international borders. Some of them are already in the early stages of being adopted by banks and governments. One current non-financial use of blockchain technology is to increase the traceability of tuna fish which aims to combat illegal fishing.</p>
+								<p>A blockchain-powered future seems highly likely with the potential for our money, our voting systems and our fish to be powered by these immutable, distributed networks which are independent from malicious individuals, corporate or state actors.</p>
+							</div>
+						</div>
 					</div>
 				</section>
 				<section id="section-author">
@@ -64,7 +99,7 @@
 						<div class="row">
 							<div class="col">
 								<h2>About the author</h2>
-								<h3>Author name here</h3>							
+								<h3>Jerzy Foss</h3>							
 							</div>						
 						</div>
 						<div class="row">
