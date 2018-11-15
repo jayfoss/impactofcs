@@ -1,0 +1,30 @@
+1.	Interest of content
+Excellent, certainly diverse; most pages relate to one another. Makes for a good read.
+
+2.	Consistency and quality of visual presentation
+Excellent, Same style sheet used on all the sites, not particular detailed or visually impressive; that being said, all the sites are neat and use suitable grids, pictures are indented suitably and reading content isn’t too monotonous.
+
+3.	Quality of written presentation
+Outstanding, Content is well written and clearly researched siting figures and linking other pages on the web for further reading or referencing.
+
+4.	Validity of HTML
+Index, Block chain, Machine learning, self-driving cars – conform to HTML parser’s standards.
+Exemplary, all sites clearly tested for validity; git log reports 5 commits fixing HTML validation issues. Whilst this may be quite easy with a relatively un-complicated site… they have clearly worked to have these issues negated.
+
+5.	Evidence of collaboration including
+	•	Author info not written by author
+		They are very clearly not written by the authors, one could only imagine if they were!
+	•	Balanced contributions from members
+Jfdur committed 20 times 		-	51%
+ThomasB123 committed 5 times	-	12%
+Sjtj97 committed 8 times		-	20%
+Jgbyrne committed 2 times	-	5%
+
+I would like to give this grout the benefit of the doubt owing to the simplicity of the styling and the repo owner was making edits on GitHub as opposed to locally thus inflating the commit log quite significantly, however it is very clear that there are collaborators that weren’t pulling their weight.
+Very good, because it is clear that they spoke to one another in the first place.
+
+•	Not completed at the last minute
+One single commit 30 minutes prior to the practical session; otherwise, it is very clear that they have been making changes and working with their sites for quite a while.
+Outstanding!
+
+
