@@ -1,0 +1,21 @@
+Interest of content
+Good
+Each page contained an interesting application of CS with a good level of detail. A critisism is that pages such as Machine Learning and Self-Driving Cars speak at great length about the technologies and how they can benifit society but dont discuss the potential issues with these technologies and paint an image that may misslead one into thinking that there are no worries about how these technologies could go wrong.
+
+Consistency and quality of visual presentation
+Good
+Each page used the same style sheets so all pages had the same format. Some pages were left ratehr bare as they lacked images and were just a page of text. This created a slight inconsistencey with the other pages that contained visual aids.
+
+Quality of written presentation
+Very good
+Every page shows genuine interest in their chosen topic and are able to clearly explain, in simple terms, how their chosen area of CS works and has benifited society.
+
+Validity of HTML
+Excellent
+All html showed up as valid in a validity checker. Pages make use of bootstrap and can adapt to a change in the window size.
+
+Evidence of collaboration
+Good
+Each page has an author (with the exception of the index.html), and each member wrote the bout the author section for another member.
+Every member made a page and wrote about another author. Clear effort has been made by all members.
+There are commits from all throughout the week they had. There were commits made the day before however they were mostly fixing html or making sure that each page had the proper formating.
